@@ -8,6 +8,7 @@ import {
   FILE_FORMAT_ACCEPT,
   FILE_MAX_SIZE,
   FILE_MAX_NUMBER,
+  SENDERS_GUIDE_URL,
 } from './telecom-sms-senders-add.constant';
 
 export default class {
@@ -19,6 +20,7 @@ export default class {
     $translate,
     $state,
     $timeout,
+    coreConfig,
     OvhApiSms,
     TucToast,
     TucToastError,
@@ -38,6 +40,10 @@ export default class {
     this.FILE_FORMAT_ACCEPT = FILE_FORMAT_ACCEPT;
     this.FILE_MAX_SIZE = FILE_MAX_SIZE;
     this.FILE_MAX_NUMBER = FILE_MAX_NUMBER;
+    this.sendersGuideUrl = SENDERS_GUIDE_URL.replace(
+      '{lang}',
+      coreConfig.getUserLanguage(),
+    );
   }
 
   $onInit() {

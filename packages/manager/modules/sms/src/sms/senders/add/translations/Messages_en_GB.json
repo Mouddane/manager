@@ -12,6 +12,8 @@
   "sms_senders_add_sender_warning_text": "Mobile phone operators do not allow SMS sending with phone numbers listed as a sender.<br/>You can use a custom alphabetical sender name, or a short number that allows for a reply.",
   "sms_senders_add_sender_warning_text_domains": "Only domains with 11 characters or less are compatible.",
   "sms_senders_add_sender_warning_text_nichandle": "Some phones will not display punctuation characters for senders.",
+  "sms_senders_add_sender_warning_text_regulation": "Some countries apply specific regulations to SMS senders. In this case, you must also contact support, in addition to your request to add a sender.",
+  "sms_senders_add_sender_guide_link": "Read the SMS senders guide",
   "sms_senders_add_sender_label": "Sender: ",
   "sms_senders_add_sender_placeholder": "Sender",
   "sms_senders_add_sender_error_required": "The “sender” field is mandatory.",
